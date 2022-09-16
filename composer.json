@@ -1,13 +1,13 @@
 {
   "name": "emergento/module-pony-u",
-  "version": "1.0.0",
   "description": "Consume PonyU Services",
   "type": "magento2-module",
   "require": {
-    "magento/framework": "*"
+    "php": "~8.1",
+    "magento/framework": "103.0.*"
   },
   "license": [
-    "Proprietary"
+    "MIT"
   ],
   "autoload": {
     "files": [
