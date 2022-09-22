@@ -13,8 +13,8 @@ class GetZonesByLatitudeLongitude
 {
     private const ENDPOINT_PATH = 'secured/sender-service-zones';
 
-    public function __construct(private readonly Client $client) {
-
+    public function __construct(private readonly Client $client)
+    {
     }
 
     /**

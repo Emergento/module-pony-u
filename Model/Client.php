@@ -3,7 +3,6 @@ declare(strict_types=1);
 
 namespace Emergento\PonyU\Model;
 
-
 use Emergento\PonyUShippingMethod\Model\Config as PonyUConfig;
 use GuzzleHttp\ClientFactory;
 use GuzzleHttp\Exception\GuzzleException;

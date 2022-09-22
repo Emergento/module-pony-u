@@ -13,7 +13,8 @@ class GetDeliverySlots
 {
     private const ENDPOINT = 'v1/secured/delivery-slots';
 
-    public function __construct(private readonly Client $client) {
+    public function __construct(private readonly Client $client)
+    {
     }
 
     /**
